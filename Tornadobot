@@ -54,7 +54,7 @@ start_bot () {
 
     echo "  Unpacking Data ..."
 
-    EivaPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    TornadoesPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
 
     unzip -qq "$zippath"
 
