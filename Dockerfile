@@ -1,7 +1,7 @@
 FROM teamTornadoes/Tornadobot:latest
 
 #clonning repo 
-RUN git clone https://github.com/TeamEiva/Eiva-Userbot.git /root/Eivabot
+RUN git clone https://github.com/TeamTornadoes/Tornado-Userbot.git /root/Tornadobot
 
 #working directory 
 WORKDIR /root/Tornadobot
