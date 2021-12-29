@@ -1,1 +1,1 @@
-worker: bash Eivabot
+worker: bash Tornadobot
