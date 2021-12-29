@@ -17,7 +17,7 @@ A simple Telegram userbot based on Telethon .
 
 
 
-## How to deploy Eiva
+## How to deploy Tornado
 ### Heroku Deploy
 
   - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamTornadoes/TornadoBot)
