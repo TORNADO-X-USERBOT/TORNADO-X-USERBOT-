@@ -6,31 +6,31 @@ _repolink () {
 
     regex='(https?)://github.com/.+/.+'
 
-    if [[ $Eiva_REPO == "TornadoBot" ]]
+    if [[ $Tornadoes_REPO == "TornadoBot" ]]
 
     then
 
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1FaXZhL0VpdmEtVXNlcmJvdC9hcmNoaXZlL21haW4uemlw" | base64 -d
 
-    elif [[ $Eiva_REPO == "Tornadobot" ]]
+    elif [[ $Tornadoes_REPO == "Tornadobot" ]]
 
     then
 
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1FaXZhL0VpdmEtVXNlcmJvdC9hcmNoaXZlL21haW4uemlw" | base64 -d
 
-    elif [[ $Tornado_REPO =~ $regex ]]
+    elif [[ $Tornadoes_REPO =~ $regex ]]
 
     then
 
-        if [[ $Tornado_REPO_BRANCH ]]
+        if [[ $Tornadoes_REPO_BRANCH ]]
 
         then
 
-            echo "${Tornado_REPO}/archive/${Tornado_REPO_BRANCH}.zip"
+            echo "${Tornadoes_REPO}/archive/${Tornado_REPO_BRANCH}.zip"
 
         else
 
-            echo "${Tornado_REPO}/archive/master.zip"
+            echo "${Tornadoes_REPO}/archive/master.zip"
 
         fi
 
