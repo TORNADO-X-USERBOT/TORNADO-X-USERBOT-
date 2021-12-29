@@ -26,7 +26,7 @@ _repolink () {
 
         then
 
-            echo "${Tornadoes_REPO}/archive/${Tornado_REPO_BRANCH}.zip"
+            echo "${Tornadoes_REPO}/archive/${Tornadoes_REPO_BRANCH}.zip"
 
         else
 
@@ -64,7 +64,7 @@ start_bot () {
 
     sleep 5
 
-    cd $EivaPATH
+    cd $TornadoesPATH
 
     echo "  • Starting TornadoBot •  "
 
