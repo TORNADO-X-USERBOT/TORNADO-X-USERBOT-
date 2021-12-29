@@ -6,31 +6,31 @@ _repolink () {
 
     regex='(https?)://github.com/.+/.+'
 
-    if [[ $Eiva_REPO == "EivaBot" ]]
+    if [[ $Eiva_REPO == "TornadoBot" ]]
 
     then
 
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1FaXZhL0VpdmEtVXNlcmJvdC9hcmNoaXZlL21haW4uemlw" | base64 -d
 
-    elif [[ $Eiva_REPO == "Eivabot" ]]
+    elif [[ $Eiva_REPO == "Tornadobot" ]]
 
     then
 
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1FaXZhL0VpdmEtVXNlcmJvdC9hcmNoaXZlL21haW4uemlw" | base64 -d
 
-    elif [[ $Eiva_REPO =~ $regex ]]
+    elif [[ $Tornado_REPO =~ $regex ]]
 
     then
 
-        if [[ $Eiva_REPO_BRANCH ]]
+        if [[ $Tornado_REPO_BRANCH ]]
 
         then
 
-            echo "${Eiva_REPO}/archive/${Eiva_REPO_BRANCH}.zip"
+            echo "${Tornado_REPO}/archive/${Tornado_REPO_BRANCH}.zip"
 
         else
 
-            echo "${Eiva_REPO}/archive/master.zip"
+            echo "${Tornado_REPO}/archive/master.zip"
 
         fi
 
@@ -46,7 +46,7 @@ start_bot () {
 
     local zippath
 
-    zippath="myEivabot.zip"
+    zippath="myTornadobot.zip"
 
     echo "  Downloading source code ..."
 
@@ -66,11 +66,11 @@ start_bot () {
 
     cd $EivaPATH
 
-    echo "  • Starting EivaBot •  "
+    echo "  • Starting TornadoBot •  "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
 
-    python3 -m Eivabot
+    python3 -m Tornadobot
 
 }
 
