@@ -21,7 +21,7 @@
     },
     "YOUR_NAME": {
       "description": "Fill Your Telegram Name. Default Value is TORNADO",
-      "value": "TORNADO,
+      "value": "TORNADO"
       "required": false
     },
     "MONGO_DB_URL ": {
