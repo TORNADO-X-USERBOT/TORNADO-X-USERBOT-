@@ -7,7 +7,7 @@
     "userbot",
     "plugin",
     "telethon",
-    "Eivabot",
+    "TORNADObot",
     "modular",
     "productivity"
   ],
@@ -31,7 +31,7 @@
     },
     "ALIVE_MSG": {
       "description": "Your Custom Alive Message to show on Alive.",
-      "value": "TORNADO ɪs ᴏɴ ғɪʀᴇ ༄",
+      "value": "TORNADO" ɪs ᴏɴ ғɪʀᴇ ༄",
       "required": false
     },
     "ALIVE_PIC": {
