@@ -1,6 +1,6 @@
 {
-  "name": "ᴇɪᴠᴀ-ᴜsᴇʀʙᴏᴛ",
-  "description": "Eiva is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
+  "name": "TORNADO-ᴜsᴇʀʙᴏᴛ",
+  "description": "TORNADO is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
   "logo": "https://telegra.ph/file/55cba9d793f01499c2dfe.jpg ",
     "keywords": [
     "telegram",
@@ -11,17 +11,17 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/TeamEiva/EivaBot/",
-  "website": "https://github.com/TeamEiva/",
-  "success_url": "https://t.me/TheEiva",
+  "repository": "https://github.com/TeamTornadoes/TornadoBot ",
+  "website": "https://github.com/TeamTornadoes/TornadoBot",
+  "success_url": "https://t.me/TORNADO_USERBOT_OFFICIAL",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
     "YOUR_NAME": {
-      "description": "Fill Your Telegram Name. Default Value is Eiva",
-      "value": "ℰⅈᏉᗅ",
+      "description": "Fill Your Telegram Name. Default Value is TORNADO",
+      "value": "TORNADO,
       "required": false
     },
     "MONGO_DB_URL ": {
@@ -31,7 +31,7 @@
     },
     "ALIVE_MSG": {
       "description": "Your Custom Alive Message to show on Alive.",
-      "value": "ᴇɪᴠᴀ ɪs ᴏɴ ғɪʀᴇ ༄",
+      "value": "TORNADO ɪs ᴏɴ ғɪʀᴇ ༄",
       "required": false
     },
     "ALIVE_PIC": {
@@ -40,7 +40,7 @@
       "required": false
     },
     "ABUSE": {
-      "description": "Leave it blank if you dont want Profanity in EivaBot. Else Fill ON.",
+      "description": "Leave it blank if you dont want Profanity in TORNADOBot. Else Fill ON.",
       "value": "ON",
       "required": false
     },
@@ -82,7 +82,7 @@
       "description": "Create a private channel. And get it's id from @Eiva50_bot and paste here. Value should start with -100",
       "value": ""
     },
-    "EivaBOT_SESSION": {
+    TORNADOBOT_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
@@ -110,13 +110,13 @@
       "value": ""
     },
     "YOUR_CHANNEL": {
-      "description": "Fill your channel username(without @) to get this displayed on your Eiva Alive.",
-      "value": "TheEiva",
+      "description": "Fill your channel username(without @) to get this displayed on your TORNADO Alive.",
+      "value": "TheTORNADO",
       "required": false
     },
     "YOUR_GROUP": {
-      "description": "Fill your group username(without @) to get this displayed on your Eiva Alive.",
-      "value": "EivaSupport",
+      "description": "Fill your group username(without @) to get this displayed on your TORNADO Alive.",
+      "value": "TORNADOSupport",
       "required": false
     },
     "SUDO_USERS": {
