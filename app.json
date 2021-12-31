@@ -82,7 +82,7 @@
       "description": "Create a private channel. And get it's id from @Eiva50_bot and paste here. Value should start with -100",
       "value": ""
     },
-    TORNADOBOT_SESSION": {
+    "TORNADOBOT_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
