@@ -1,6 +1,6 @@
 # TORNADO 𝙐𝙎𝙀𝙍𝘽𝙊𝙏
 A simple Telegram userbot based on Telethon .
-[![Tornadobot logo](https://te.legra.ph/file/10d030e79d45835ab7d43.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTeamEiva%2FEivabot%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2FTeamEiva%2FEivabot)
+[![Tornadobot logo](https://te.legra.ph/file/10d030e79d45835ab7d43.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTeamTornadoes%2FTornadoBot%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2FTeamTornadoes%2FTornadoBot)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTeamEiva%2FEivabot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/TeamEiva/Eivabot)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
